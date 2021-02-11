@@ -1,0 +1,84 @@
+﻿import arcpy
+arcpy.management.MakeRasterLayer('stowe_elev.tif','outRlayer1')
+arcpy.SignInToPortal('https://suolaptop.esri.com/portal/','admin','esri.agp')
+import arcpy
+arcpy.ImportToolbox("C:\\temp\\hotspot\\hotspot.tbx")
+import arcpy
+arcpy.ImportToolbox("C:\\temp\\hotspot\\hotspot.tbx")
+import arcpy
+arcpy.ImportToolbox('https://suolaptop.esri.com/server/services;hotspot script tool;{0};{1}'.format('admin','esri.agp'))
+arcpy.hotspotscripttool('https://suolaptop.esri.com/server/rest/services/Hosted/calls/FeatureServer/0','outRlayer1','ofs1')
+arcpy.hotspotscripttool.hotspot('https://suolaptop.esri.com/server/rest/services/Hosted/calls/FeatureServer/0','outRlayer1','ofs1')
+arcpy.hotspotscripttool_hotspot('https://suolaptop.esri.com/server/rest/services/Hosted/calls/FeatureServer/0','outRlayer1','ofs1')
+imported=arcpy.ImportToolbox('https://suolaptop.esri.com/server/services;hotspot script tool;{0};{1}'.format('admin','esri.agp'))
+imported
+imported.hotspot
+imported.hotspotscripttool
+imported.hotspotscripttool_hotspot
+arcpy.hotspotscripttool
+arcpy.hotspotscripttool('fe')
+arcpy.hotspot_webtool
+arcpy.hotspotscripttool.execute
+arcpy.hotspotscripttool_hotspot('fe')
+arcpy.hotspotscripttool_hotspot
+arcpy.hotspot_webtool
+arcpy.hotspotscripttool.fe
+imported=arcpy.ImportToolbox('https://suolaptop.esri.com/server/services;hotspot_webtool;{0};{1}'.format('admin','esri.agp'))
+imported.hotspotscripttool('calls', 'outRlayer1')
+arcpy.hotspotscripttool_hotspotwebtool('calls', 'outRlayer1')
+import arcpy
+arcpy.ImportToolbox('https://suolaptop.esri.com/server/services;hotspot_webtool;{0};{1}'.format('admin','esri.agp'))
+arcpy.hotspotwebtool.hotspotscripttool('calls', 'outRlayer1')
+result1=arcpy.hotspotwebtool.hotspotscripttool('calls', 'outRlayer1','ofs156')
+rresult1
+result1
+module2=arcpy.ImportToolbox('https://gpselenium:6443/arcgis/services;hotspot_gpservice;admin;esri.agp')
+module2=arcpy.ImportToolbox('https://gpselenium:6443/arcgis/services;hotspot_gpservice;')
+arcpy.ApplySymbologyFromLayer_management("outputPolygon", r"C:\Slides\Data\HotSpotsPolygon.lyrx", "gridcode")
+arcpy.ApplySymbologyFromLayer_management("C:\\Slides\\Data\\scratch.gdb\\outputPolygonnew", r"C:\Slides\Data\HotSpotsPolygon.lyrx", "gridcode")
+arcpy.ApplySymbologyFromLayer_management("C:\\Slides\\Data\\scratch.gdb\\outputPolygonnew", r"C:\Slides\Data\HotSpotsPolygon.lyrx")
+import arcpyy
+import arcpy
+ws = arcpy.env.workspace = r'C:\Dev2020\hotspot\Data'
+arcpy.ImportToolbox('https://{0}/server/services;hotspot_webtool;{1};{2}'.format(config.servername, config.username, config.password))
+arcpy.ImportToolbox('https://loanritm0940329/server/services;hotspot_webtool;admin;esri.agp')
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspot_webtool;admin;esri.agp')
+result = arcpy.hotspotwebtool.hotspotscripttool(calls = os.path.join('HotSpotData.gdb', 'calls'),                                        rastersize = 'outRlayer1',                                        esri_out_feature_service_name = 'HotSpotOutFS')
+import os
+result = arcpy.hotspotwebtool.hotspotscripttool(calls = os.path.join('HotSpotData.gdb', 'calls'),                                        rastersize = 'outRlayer1',                                        esri_out_feature_service_name = 'HotSpotOutFS')
+fsoutput = result.getOutput()
+fsoutput = result.getOutput(0)
+print(fsoutput.JSON)
+arcpy.Describe(fsoutput).catalogPath
+desout = arcpy.Describe(fsoutput)
+vars(desout)
+type(fsoutput)
+import arcpy import config import os import sys
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspot_webtool;admin;esri.agp')result = arcpy.hotspotwebtool.hotspotscripttool(calls = os.path.join('HotSpotData.gdb', 'calls'),                                            rastersize = 'outRlayer1',                                            esri_out_feature_service_name = 'HotSpotOutFS6')
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspot_webtool;admin;esri.agp')result = arcpy.hotspotwebtool.hotspotscripttool(calls = os.path.join('HotSpotData.gdb', 'calls'), rastersize = 'outRlayer1', esri_out_feature_service_name = 'HotSpotOutFS6')
+result = arcpy.hotspotwebtool.hotspotscripttool(calls = os.path.join('HotSpotData.gdb', 'calls'), rastersize = 'outRlayer1', esri_out_feature_service_name = 'HotSpotOutFS6')
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspot_webtool;admin;esri.agp')
+arcpy.env.workspace = r"c:\Dev2020\Data"
+arcpy.ApplySymbologyFromLayer_management("scratch\outputPolygon.shp", "HotSpotsPolygon.lyrx")
+ws = arcpy.env.workspace = r'C:\Dev2020\hotspot\Data'
+arcpy.ImportToolbox('https://loanrit0940329.esri.com/server/services;hotspotwebtool;admin;esri.agp')
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspotwebtool;admin;esri.agp')
+result = arcpy.hotspotwebtool.hotspotscript(calls = os.path.join('HotSpotData.gdb', 'calls'),                                            rastersize = 'outRlayer1',                                            esri_out_feature_service_name = 'HotSpotOutFSa1')
+import os
+result = arcpy.hotspotwebtool.hotspotscript(calls = os.path.join('HotSpotData.gdb', 'calls'),                                            rastersize = 'outRlayer1',                                            esri_out_feature_service_name = 'HotSpotOutFSa1')
+result = arcpy.hotspotwebtool1.hotspotscript(calls = os.path.join('HotSpotData.gdb', 'calls'),                                            rastersize = 'outRlayer1',                                            esri_out_feature_service_name = 'HotSpotOutFS3')
+arcpy.ImportToolbox('https://loanritm0940329.esri.com/server/services;hotspotwebtool1;admin;esri.agp')
+result = arcpy.hotspotwebtool1.hotspotscript(calls = os.path.join('HotSpotData.gdb', 'calls'),                                            rastersize = 'outRlayer1',                                            esri_out_feature_service_name = 'HotSpotOutFS3')
+print(result)
+ROutput = result.getOutput(0)
+print(Routput)
+ROutput = result.getOutput(0)
+arcpy.Describe(ROutput)
+ROutput.JSON
+arcpy.ImportToolbox('https://gpselenium:6443/arcgis/services; hotspotgpservice1; admin; esri.agp')
+inputCalls = arcpy.MakeFeatureLayer_management('https://{}/server/rest/services/Hosted/callsFS/FeatureServer/0'.format(config.servername))
+inputCalls = arcpy.MakeFeatureLayer_management('https://{}/server/rest/services/Hosted/callsFS/FeatureServer/0'.format('loanritm0940329.esri.com')
+inputCalls = arcpy.MakeFeatureLayer_management('https://{}/server/rest/services/Hosted/callsFS/FeatureServer/0').format('loanritm0940329.esri.com')
+inputCalls = arcpy.MakeFeatureLayer_management('https://{}/server/rest/services/Hosted/callsFS/FeatureServer/0'.format('loanritm0940329.esri.com'))
+inputCalls = arcpy.MakeFeatureLayer_management('https://loanritm0940329.esri.com/server/rest/services/Hosted/callsFS/FeatureServer/0')
+inputCalls = arcpy.MakeFeatureLayer_management('https://loanritm0940329.esri.com/server/rest/services/Hosted/callsFS/FeatureServer/0', 'fslyr')
